@@ -47,8 +47,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Layouts\RadarChart.cs">
       <Link>Layouts\RadarChart.cs</Link>
 	</Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Extensions\CanvasExtensions.cs">
-      <Link>Extensions\CanvasExtensions.cs</Link>
-	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\CanvasExtensions.cs" />
   </ItemGroup>
 </Project>
