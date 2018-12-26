@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <Import Project="..\Microcharts.Shared\Microcharts.Shared.projitems" Label="Shared" />
+  <ItemGroup>
+    <Compile Include="..\OriginalSource\Sources\Microcharts.Forms\ChartView.cs">
+      <Link>ChartView.cs</Link>
+	</Compile>
+  </ItemGroup>
+
+</Project>

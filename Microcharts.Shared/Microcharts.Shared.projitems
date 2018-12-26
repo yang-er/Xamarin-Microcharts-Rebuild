@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{818A5879-1440-4B4E-B132-8DF4CBBE0B7B}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Microcharts.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Helpers\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Layouts\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Helpers\RadialHelpers.cs">
+      <Link>Helpers\RadialHelpers.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Layouts\BarChart.cs">
+      <Link>Layouts\BarChart.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Layouts\DonutChart.cs">
+      <Link>Layouts\DonutChart.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Layouts\LineChart.cs">
+      <Link>Layouts\LineChart.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Layouts\LineMode.cs">
+      <Link>Layouts\LineMode.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Layouts\PointChart.cs">
+      <Link>Layouts\PointChart.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Layouts\PointMode.cs">
+      <Link>Layouts\PointMode.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Layouts\RadialGaugeChart.cs">
+      <Link>Layouts\RadialGaugeChart.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Chart.cs">
+      <Link>Chart.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Entry.cs">
+      <Link>Entry.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Layouts\RadarChart.cs">
+      <Link>Layouts\RadarChart.cs</Link>
+	</Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)..\OriginalSource\Sources\Microcharts.Shared\Extensions\CanvasExtensions.cs">
+      <Link>Extensions\CanvasExtensions.cs</Link>
+	</Compile>
+  </ItemGroup>
+</Project>

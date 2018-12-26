@@ -1,0 +1,3 @@
+[submodule "OriginalSource"]
+	path = OriginalSource
+	url = https://github.com/aloisdeniel/Microcharts.git
